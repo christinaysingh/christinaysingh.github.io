@@ -1,1 +1,89 @@
-# christinaysingh.github.io
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christina Y. Singh | Research</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 2rem;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 2rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #0066cc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #004c99;
+    }
+  </style>
+</head>
+<body>
+   <header>
+    <img src="profile.jpg" alt="Christina Singh" class="profile" />
+    <div>
+      <h1>Christina Singh</h1>
+      <p><em>Graduate Research Assistant | Planetary Science</em></p>
+      <a href="cv.pdf" class="button" target="_blank">Download CV</a>
+    </div>
+  </header>
+  <h2>About Me</h2>
+  <p>
+    I'm a first-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets a the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
+    My work focuses on analyzing geomorphologic data to assess the Martian paleoclimate and water budgets.
+  </p>
+
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Planetary Surface Processes</li>
+    <li>Photogrammetry</li>
+    <li>Planetary Analogs</li>
+    <li>Astrobiology</li>
+  </ul>
+
+  <h2>Publications</h2>
+  <p>Coming soon...</p>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
+  <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">christinaysingh</a></p>
+</body>
+</html>
