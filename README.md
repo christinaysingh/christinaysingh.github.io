@@ -10,7 +10,7 @@
       max-width: 850px;
       margin-left: auto;
       margin-right: auto;
-      background-color: #ffffff;
+      background-color: #000000;
       color: #222;
       line-height: 1.6;
     }
