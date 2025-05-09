@@ -1,7 +1,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christina Y. Singh | Research</title>
+  <title>Christina Singh | Research</title>
   <style>
     body {
       font-family: Georgia, serif;
@@ -58,7 +58,7 @@
 </head>
 <body>
    <header>
-    <img src="profile.jpg" alt="Christina Singh" class="profile" />
+    <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
       <h1>Christina Singh</h1>
       <p><em>Graduate Research Assistant | Planetary Science</em></p>
