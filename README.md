@@ -45,7 +45,7 @@
       display: inline-block;
       margin-top: 1rem;
       padding: 0.5rem 1rem;
-      background-color: #0066cc;
+      background-color: #117864;
       color: white;
       border-radius: 5px;
       text-decoration: none;
@@ -86,4 +86,3 @@
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
   <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">christinaysingh</a></p>
 </body>
-</html>
