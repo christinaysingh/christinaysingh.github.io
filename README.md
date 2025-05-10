@@ -11,7 +11,7 @@
       margin-left: auto;
       margin-right: auto;
       background-color: #000000;
-      color: #222;
+      color: #ffffff;
       line-height: 1.6;
     }
     header {
