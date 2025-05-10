@@ -1,7 +1,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christina Singh | Research</title>
+  <title>Christina's Research Website| Research</title>
   <style>
     body {
       font-family: Georgia, serif;
