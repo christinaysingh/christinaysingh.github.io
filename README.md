@@ -24,8 +24,7 @@ Modify this so the text is white:
     }
     img.profile {
       width: 150px;
-      border-radius: 50%;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
     h1 {
       font-size: 2em;
@@ -70,7 +69,7 @@ Modify this so the text is white:
   <h2>About Me</h2>
   <p>
     I'm a first-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets a the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
-    My work focuses on analyzing geomorphologic data to assess the Martian paleoclimate and water budgets.
+    My work focuses on analyzing geomorphological data to assess the Martian paleoclimate and water budgets.
   </p>
 
   <h2>Research Interests</h2>
