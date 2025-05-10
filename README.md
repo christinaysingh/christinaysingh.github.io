@@ -28,7 +28,7 @@
     h1 {
       font-size: 2em;
       margin: 0;
-      color: #117864;
+      color: #ffffff;
     }
     h2 {
       color: #ffffff;
