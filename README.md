@@ -52,7 +52,7 @@
       font-weight: bold;
     }
     .button:hover {
-      background-color: #004c99;
+      background-color: #fffffff;
     }
   </style>
 </head>
