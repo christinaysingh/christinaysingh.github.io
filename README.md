@@ -87,7 +87,6 @@
     <div>
       <h1>Christina Singh</h1>
       <p><em>Graduate Research Assistant | Planetary Science</em></p>
-      <a href="cv.pdf" class="button" target="_blank">Download CV</a>
     </div>
   </header>
   <h2>About Me</h2>
