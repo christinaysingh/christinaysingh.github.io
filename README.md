@@ -16,7 +16,6 @@
       color: #ffffff;
       line-height: 1.6;
     }
-
     nav {
       display: flex;
       justify-content: center;
@@ -26,7 +25,6 @@
       margin-bottom: 2rem;
       border-bottom: 1px solid #444;
     }
-
     .nav-button {
       color: white;
       text-decoration: none;
@@ -36,48 +34,39 @@
       border-radius: 5px;
       font-family: Georgia, serif;
     }
-
     .nav-button:hover {
       background-color: #ffffff;
       color: #000000;
     }
-
     header {
       display: flex;
       align-items: center;
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
-
     img.profile {
       width: 150px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
-
     h1, h2, p, li, a {
       font-family: Georgia, serif;
     }
-
     h1 {
       font-size: 2em;
       margin: 0;
       color: #ffffff;
     }
-
     h2 {
       color: #ffffff;
       margin-top: 2rem;
     }
-
     a {
       color: #ffffff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
     .button {
       display: inline-block;
       margin-top: 1rem;
@@ -89,7 +78,6 @@
       font-weight: bold;
       font-family: Georgia, serif;
     }
-
     .button:hover {
       background-color: #ffffff;
       color: #000000;
@@ -108,7 +96,7 @@
     <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
       <h1>Christina Singh</h1>
-      <p><em>Graduate Research Assistant | Planetary Science</em></p>
+      <p><em>Graduate Research Assistant | Planetary Science PhD Student</em></p>
     </div>
   </header>
 
