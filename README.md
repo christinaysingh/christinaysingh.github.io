@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christina's Research Website| Research</title>
+  <title>Christina's Research Website | Research</title>
   <style>
     body {
       font-family: Georgia, serif;
@@ -14,11 +16,7 @@
       color: #ffffff;
       line-height: 1.6;
     }
-    <nav>
-      <a href="index.html" class="nav-button">Home</a>
-      <a href="projects.html" class="nav-button">Research Projects</a>
-      <a href="cv.pdf" class="nav-button" target="_blank">CV</a>
-    </nav>
+
     nav {
       display: flex;
       justify-content: center;
@@ -28,6 +26,7 @@
       margin-bottom: 2rem;
       border-bottom: 1px solid #444;
     }
+
     .nav-button {
       color: white;
       text-decoration: none;
@@ -35,37 +34,50 @@
       padding: 0.5rem 1rem;
       background-color: #117864;
       border-radius: 5px;
-    }  
+      font-family: Georgia, serif;
+    }
+
     .nav-button:hover {
       background-color: #ffffff;
       color: #000000;
     }
+
     header {
       display: flex;
       align-items: center;
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
+
     img.profile {
       width: 150px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
+
+    h1, h2, p, li, a {
+      font-family: Georgia, serif;
+    }
+
     h1 {
       font-size: 2em;
       margin: 0;
       color: #ffffff;
     }
+
     h2 {
       color: #ffffff;
       margin-top: 2rem;
     }
+
     a {
       color: #ffffff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .button {
       display: inline-block;
       margin-top: 1rem;
@@ -75,23 +87,34 @@
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
+      font-family: Georgia, serif;
     }
+
     .button:hover {
       background-color: #ffffff;
+      color: #000000;
     }
   </style>
 </head>
+
 <body>
-   <header>
+  <nav>
+    <a href="index.html" class="nav-button">Home</a>
+    <a href="projects.html" class="nav-button">Research Projects</a>
+    <a href="cv.pdf" class="nav-button" target="_blank">CV</a>
+  </nav>
+
+  <header>
     <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
       <h1>Christina Singh</h1>
       <p><em>Graduate Research Assistant | Planetary Science</em></p>
     </div>
   </header>
+
   <h2>About Me</h2>
   <p>
-    I'm a first-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets a the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
+    I'm a first-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets at the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
     My work focuses on analyzing geomorphological data to assess the Martian paleoclimate and water budgets.
   </p>
 
@@ -108,5 +131,5 @@
 
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
-  <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">christinaysingh</a></p>
+  <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
 </body>
