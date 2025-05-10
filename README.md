@@ -28,7 +28,7 @@
     h1 {
       font-size: 2em;
       margin: 0;
-      color: #2c3e50;
+      color: #117864;
     }
     h2 {
       color: #ffffff;
@@ -52,7 +52,7 @@
       font-weight: bold;
     }
     .button:hover {
-      background-color: #fffffff;
+      background-color: #ffffff;
     }
   </style>
 </head>
