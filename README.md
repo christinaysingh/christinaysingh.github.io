@@ -14,6 +14,32 @@
       color: #ffffff;
       line-height: 1.6;
     }
+    <nav>
+      <a href="index.html" class="nav-button">Home</a>
+      <a href="projects.html" class="nav-button">Research Projects</a>
+      <a href="cv.pdf" class="nav-button" target="_blank">CV</a>
+    </nav>
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #111;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #444;
+    }
+    .nav-button {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      background-color: #117864;
+      border-radius: 5px;
+    }  
+    .nav-button:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
     header {
       display: flex;
       align-items: center;
