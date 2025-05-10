@@ -7,13 +7,16 @@
   <style>
     body {
       font-family: Georgia, serif;
-      background-color: #000000;
-      color: #ffffff;
+      margin: 0;
       padding: 2rem;
       max-width: 850px;
-      margin: auto;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #000000;
+      color: #ffffff;
       line-height: 1.6;
     }
+
     nav {
       display: flex;
       justify-content: center;
@@ -23,6 +26,7 @@
       margin-bottom: 2rem;
       border-bottom: 1px solid #444;
     }
+
     .nav-button {
       color: white;
       text-decoration: none;
@@ -30,43 +34,122 @@
       padding: 0.5rem 1rem;
       background-color: #117864;
       border-radius: 5px;
+      font-family: Georgia, serif;
     }
+
     .nav-button:hover {
       background-color: #ffffff;
       color: #000000;
     }
-    h1, h2 {
-      color: #ffcc70;
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
     }
+
+    img.profile {
+      width: 150px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #ffffff;
+    }
+
+    h2 {
+      color: #ffffff;
+      margin-top: 2rem;
+    }
+
     a {
-      color: #80bfff;
+      color: #ffffff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
+    .project-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .project-item {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background-color: #222;
+      border-radius: 5px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #117864;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
   </style>
 </head>
+
 <body>
   <nav>
     <a href="index.html" class="nav-button">Home</a>
     <a href="projects.html" class="nav-button">Research Projects</a>
     <a href="cv.pdf" class="nav-button" target="_blank">CV</a>
   </nav>
-  <h1>Research Projects</h1>
 
-  <h2>Martian Boulder Distributions (Sep 2023-present)</h2>
-  <p>
-    I'm investigating the spatial distribution of boulders on Martian midlatitude ice sheets using high-resolution imagery and photogrammetry tools. This work helps interpret past surface processes and water stability on Mars.
-  </p>
+  <header>
+    <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
+    <div>
+      <h1>Christina Singh</h1>
+      <p><em>Graduate Research Assistant | Planetary Science PhD Student</em></p>
+    </div>
+  </header>
 
-  <h2>Mars Sample Return (MSSR) Landing Site Characterization (Jun-Aug 2023)</h2>
-  <p>
-    Upcoming work will explore ...
-  </p>
+  <h2>Research Projects</h2>
+  <p>Below are some of my ongoing and completed research projects:</p>
 
-  <h2>Characterizing A Potential Distal Deposit of the Hypanis Delta, Mars (May-Jul 2022)</h2>
-  <p>
-    Upcoming work will explore ...
-  </p>
+  <ul class="project-list">
+    <li class="project-item">
+      <h3>Project 1: Boulder Distributions on Martian Ice Sheets</h3>
+      <p>
+        This project focuses on analyzing the distribution of boulders on midlatitude Martian ice sheets, using photogrammetry and remote sensing data.
+      </p>
+      <a href="https://example.com" class="button" target="_blank">Learn More</a>
+    </li>
+
+    <li class="project-item">
+      <h3>Project 2: Photogrammetry for Planetary Surface Analysis</h3>
+      <p>
+        Research on how photogrammetry techniques can be applied to planetary surface analysis, focusing on Mars and the Moon.
+      </p>
+      <a href="https://example.com" class="button" target="_blank">Learn More</a>
+    </li>
+
+    <li class="project-item">
+      <h3>Project 3: Astrobiological Implications of Mars’ Paleoclimate</h3>
+      <p>
+        This project investigates the astrobiological potential of Mars based on its paleoclimate and water budget, contributing to the search for signs of life.
+      </p>
+      <a href="https://example.com" class="button" target="_blank">Learn More</a>
+    </li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
+  <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
 </body>
+</html>
