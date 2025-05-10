@@ -83,7 +83,6 @@
 </head>
 <body>
    <header>
-    <a href="projects.html" class="button">Research Projects</a>
     <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
       <h1>Christina Singh</h1>
