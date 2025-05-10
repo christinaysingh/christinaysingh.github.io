@@ -31,11 +31,11 @@
       color: #2c3e50;
     }
     h2 {
-      color: #2c3e50;
+      color: #ffffff;
       margin-top: 2rem;
     }
     a {
-      color: #0066cc;
+      color: #ffffff;
       text-decoration: none;
     }
     a:hover {
