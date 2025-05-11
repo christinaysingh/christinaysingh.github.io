@@ -100,7 +100,7 @@
     .project-images {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 3rem; /* Increased gap between images */
       width: 100%;
     }
     .project-image-container {
@@ -108,11 +108,13 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 1rem;
-      width: 100%;
+      width: 85%; /* All images use 85% width */
+      margin-left: auto;
+      margin-right: auto;
     }
     .project-image {
       width: 100%;
-      max-height: 500px; /* Maximum height while maintaining aspect ratio */
+      max-height: 550px; /* Increased max height for all images */
       object-fit: contain;
       border-radius: 5px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -126,63 +128,11 @@
       max-width: 95%;
     }
     
-    /* For single image projects, make image even larger */
-    .single-image .project-image {
-      max-height: 600px;
-    }
-    
-    /* For projects with multiple images */
-    .multi-image .project-images {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-    
-    @media (min-width: 768px) {
-      .project-content {
-        flex-direction: column; /* Changed to column to allow full-width images */
-      }
-      
-      .project-text {
-        width: 100%;
-      }
-      
-      .project-images {
-        width: 100%;
-      }
-      
-      /* For projects with two images, display them side by side on desktop */
-      .two-images .project-images {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-      }
-      
-      .two-images .project-image-container {
-        width: 48%;
-      }
-      
-      /* For projects with three images, display them in a grid on desktop */
-      .multi-image .project-images {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-      
-      .multi-image .project-image-container {
-        width: 31%;
-        margin-bottom: 2rem;
-      }
-    }
-    
-    /* For projects with one image on larger screens, make it 75% width */
-    @media (min-width: 1024px) {
-      .single-image .project-image-container {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-      }
+    /* Hover effect for all images */
+    .project-image:hover {
+      cursor: pointer;
+      transform: scale(1.01);
+      transition: transform 0.3s ease;
     }
     
     .button {
@@ -198,13 +148,6 @@
     .button:hover {
       background-color: #ffffff;
       color: #000000;
-    }
-    
-    /* Add a lightbox-like effect when clicking images */
-    .project-image:hover {
-      cursor: pointer;
-      transform: scale(1.01);
-      transition: transform 0.3s ease;
     }
   </style>
 </head>
@@ -224,7 +167,7 @@
   <h2>Research Projects</h2>
   <p>Below are some of my ongoing and completed research projects:</p>
   <ul class="project-list">
-    <li class="project-item single-image">
+    <li class="project-item">
       <h3>Boulder Distributions on Martian Ice Sheets (Sep 2023-present)</h3>
       <p class="project-meta">
         <span class="institution">University of Arizona, Lunar and Planetary Laboratory</span> | 
@@ -244,7 +187,7 @@
         </div>
       </div>
     </li>
-    <li class="project-item multi-image">
+    <li class="project-item">
       <h3>Characterizing Hazards at Candidate Mars Sample Return (MSR) Landing Sites (Jun 2023-Aug 2023)</h3>
       <p class="project-meta">
         <span class="institution">NASA Jet Propulsion Laboratory</span> | 
@@ -272,7 +215,7 @@
         </div>
       </div>
     </li>
-    <li class="project-item two-images">
+    <li class="project-item">
       <h3>Characterizing the Stratigraphy of a Potential Distal Remnant of the Hypanis Delta, Mars (May 2022-Jul 2022)</h3>
       <p class="project-meta">
         <span class="institution">Georgia Institute of Technology, Department of Earth and Atmospheric Sciences</span> | 
