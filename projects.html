@@ -112,13 +112,6 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .project-image {
-      width: 100%;
-      max-height: 550px; /* Increased max height for all images */
-      object-fit: contain;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
     .image-caption {
       font-size: 0.9em;
       color: #aaa;
@@ -126,6 +119,22 @@
       font-style: italic;
       text-align: center;
       max-width: 95%;
+    }
+    
+    /* Group for image + CFA plot */
+    .image-plot-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    
+    /* Divider between groups */
+    .group-divider {
+      height: 1px;
+      background-color: #444;
+      width: 50%;
+      margin: 1rem auto 2rem auto;
     }
     
     /* Hover effect for all images */
@@ -202,16 +211,32 @@
         <div class="project-images">
           <div class="project-image-container">
             <img src="Jezero_crater_landing_site.png" alt="MSR landing site analysis" class="project-image">
-            <p class="image-caption"> Potential MSR landing sites. Abercastell (Belva Crater) landing ellipse shown in green.</p>
+            <p class="image-caption">Potential MSR landing sites. Abercastell (Belva Crater) landing ellipse shown in green.</p>
           </div>
-          <div class="project-image-container">
-            <img src="Rover_Navcam_rocks.png" alt="MSR landing site analysis" class="project-image">
-            <p class="image-caption">CFA analysis of rock hazards seen by the Perseverance rover's Navcam at the Abercastell (Belva Crater) landing site.</p>
-          </div>  
-          <div class="project-image-container">
-            <img src="Ingenuity_rocks_color.png" alt="MSR landing site analysis" class="project-image">
-            <p class="image-caption">CFA analysis of rock hazards seen by the Ingenuity helicopter's camera at the Abercastell (Belva Crater) landing site.</p>
-          </div>  
+          
+          <div class="image-plot-group">
+            <div class="project-image-container">
+              <img src="Rover_Navcam_rocks.png" alt="Rover Navcam rock analysis" class="project-image">
+              <p class="image-caption">Rock mapping from the Perseverance rover's Navcam at the Abercastell (Belva Crater) landing site.</p>
+            </div>
+            
+            <div class="project-image-container">
+              <img src="Rover_Navcam_CFA.png" alt="Navcam rover CFA analysis" class="project-image">
+              <p class="image-caption">Cumulative Fractional Area (CFA) curves versus rock diameter from the Perseverance rover's Navcam. Inner and outer rocks are shown with fitted k-values indicating rock abundance.</p>
+            </div>
+          </div>
+          
+          <div class="image-plot-group">
+            <div class="project-image-container">
+              <img src="Ingenuity_rocks_color.png" alt="Helicopter rock analysis" class="project-image">
+              <p class="image-caption">Rock mapping from the Ingenuity helicopter's camera at the Abercastell (Belva Crater) landing site.</p>
+            </div>
+            
+            <div class="project-image-container">
+              <img src="Ingenuity_rocks2_CFA.jpg" alt="Helicopter CFA analysis" class="project-image">
+              <p class="image-caption">Cumulative Fractional Area (CFA) curves versus rock diameter from the Ingenuity helicopter's RTE 07 image. Inner and outer rocks are shown with fitted k-values indicating rock abundance.</p>
+            </div>
+          </div>
         </div>
       </div>
     </li>
