@@ -112,6 +112,15 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .project-image {
+      width: 100%;
+      max-width: 100%; /* Ensures image doesn't exceed container width */
+      max-height: 450px; /* Set a max height to prevent overflow */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: contain;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
     .image-caption {
       font-size: 0.9em;
       color: #aaa;
@@ -127,6 +136,12 @@
       flex-direction: column;
       gap: 1.5rem;
       margin-bottom: 2.5rem;
+      width: 100%;
+    }
+    
+    /* Constrain CFA plot images to maintain better sizing */
+    .cfa-plot {
+      max-height: 400px;
     }
     
     /* Divider between groups */
@@ -221,7 +236,7 @@
             </div>
             
             <div class="project-image-container">
-              <img src="Rover_Navcam_CFA.png" alt="Navcam rover CFA analysis" class="project-image">
+              <img src="Rover_Navcam_CFA.jpg" alt="Navcam rover CFA analysis" class="project-image cfa-plot">
               <p class="image-caption">Cumulative Fractional Area (CFA) curves versus rock diameter from the Perseverance rover's Navcam. Inner and outer rocks are shown with fitted k-values indicating rock abundance.</p>
             </div>
           </div>
@@ -233,7 +248,7 @@
             </div>
             
             <div class="project-image-container">
-              <img src="Ingenuity_rocks2_CFA.jpg" alt="Helicopter CFA analysis" class="project-image">
+              <img src="Ingenuity_rocks2_CFA.jpg" alt="Helicopter CFA analysis" class="project-image cfa-plot">
               <p class="image-caption">Cumulative Fractional Area (CFA) curves versus rock diameter from the Ingenuity helicopter's RTE 07 image. Inner and outer rocks are shown with fitted k-values indicating rock abundance.</p>
             </div>
           </div>
