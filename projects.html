@@ -57,6 +57,9 @@
       color: #ffffff;
       margin-top: 2rem;
     }
+    h3 {
+      margin-bottom: 0.5rem;
+    }
     a {
       color: #ffffff;
       text-decoration: none;
@@ -81,6 +84,18 @@
     }
     .project-text {
       flex: 1;
+    }
+    .project-meta {
+      font-style: italic;
+      color: #aaa;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .mentor {
+      color: #27A1E7; /* Light blue color for emphasis */
+    }
+    .institution {
+      color: #FF5733; /* Accent color from your original design */
     }
     .project-images {
       display: flex;
@@ -192,6 +207,10 @@
   <ul class="project-list">
     <li class="project-item single-image">
       <h3>Boulder Distributions on Martian Ice Sheets (Sep 2023-present)</h3>
+      <p class="project-meta">
+        <span class="institution">University of Arizona, Lunar and Planetary Laboratory</span> | 
+        Mentor: <span class="mentor">Dr. Shane Byrne</span>
+      </p>
       <div class="project-content">
         <div class="project-text">
           <p>
@@ -208,6 +227,10 @@
     </li>
     <li class="project-item single-image">
       <h3>Characterizing Hazards at Candidate Mars Sample Return (MSR) Landing Sites (Jun 2023-Aug 2023)</h3>
+      <p class="project-meta">
+        <span class="institution">NASA Jet Propulsion Laboratory</span> | 
+        Mentors: <span class="mentor(s)">Dr. Matthew Golombek & Dr. Nathan Williams</span>
+      </p>
       <div class="project-content">
         <div class="project-text">
           <p>
@@ -224,6 +247,10 @@
     </li>
     <li class="project-item two-images">
       <h3>Characterizing the Stratigraphy of a Potential Distal Remnant of the Hypanis Delta, Mars (May 2022-Jul 2022)</h3>
+      <p class="project-meta">
+        <span class="institution">Georgia Institute of Technology, Department of Earth and Atmospheric Sciences</span> | 
+        Mentor: <span class="mentor(s)">Dr. Frances Rivera-Hernandez & Dr. Jacob Adler</span>
+      </p>
       <div class="project-content">
         <div class="project-text">
           <p>
@@ -232,7 +259,7 @@
         </div>
         <div class="project-images">
           <div class="project-image-container">
-            <img src="Hypanis.png" alt="Hypanis Delta system" class="project-image">
+            <img src="Hypanis.PNG" alt="Hypanis Delta system" class="project-image">
             <p class="image-caption">The Hypanis delta system with the potential distal deposit shown in yellow.</p>
           </div>
           <div class="project-image-container">
