@@ -131,6 +131,13 @@
       max-height: 600px;
     }
     
+    /* For projects with multiple images */
+    .multi-image .project-images {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
     @media (min-width: 768px) {
       .project-content {
         flex-direction: column; /* Changed to column to allow full-width images */
@@ -154,6 +161,18 @@
       
       .two-images .project-image-container {
         width: 48%;
+      }
+      
+      /* For projects with three images, display them in a grid on desktop */
+      .multi-image .project-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .multi-image .project-image-container {
+        width: 31%;
+        margin-bottom: 2rem;
       }
     }
     
@@ -225,7 +244,7 @@
         </div>
       </div>
     </li>
-    <li class="project-item single-image">
+    <li class="project-item multi-image">
       <h3>Characterizing Hazards at Candidate Mars Sample Return (MSR) Landing Sites (Jun 2023-Aug 2023)</h3>
       <p class="project-meta">
         <span class="institution">NASA Jet Propulsion Laboratory</span> | 
@@ -257,7 +276,7 @@
       <h3>Characterizing the Stratigraphy of a Potential Distal Remnant of the Hypanis Delta, Mars (May 2022-Jul 2022)</h3>
       <p class="project-meta">
         <span class="institution">Georgia Institute of Technology, Department of Earth and Atmospheric Sciences</span> | 
-        Mentor: <span class="mentor">Dr. Frances Rivera-Hernandez & Dr. Jacob Adler</span>
+        Mentors: <span class="mentor">Dr. Frances Rivera-Hernandez & Dr. Jacob Adler</span>
       </p>
       <div class="project-content">
         <div class="project-text">
