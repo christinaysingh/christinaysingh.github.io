@@ -9,7 +9,7 @@
       font-family: Georgia, serif;
       margin: 0;
       padding: 2rem;
-      max-width: 850px;
+      max-width: 950px; /* Increased max-width for more space */
       margin-left: auto;
       margin-right: auto;
       background-color: #000000;
@@ -69,15 +69,15 @@
       padding: 0;
     }
     .project-item {
-      margin-bottom: 1.5rem;
-      padding: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 2rem;
       background-color: #222;
       border-radius: 5px;
     }
     .project-content {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 2rem;
     }
     .project-text {
       flex: 1;
@@ -85,49 +85,69 @@
     .project-images {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 2rem;
+      width: 100%;
     }
     .project-image-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 1rem;
+      width: 100%;
     }
     .project-image {
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+      max-height: 500px; /* Maximum height while maintaining aspect ratio */
       object-fit: contain;
       border-radius: 5px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
     .image-caption {
-      font-size: 0.85em;
+      font-size: 0.9em;
       color: #aaa;
-      margin-top: 0.5rem;
+      margin-top: 0.8rem;
       font-style: italic;
       text-align: center;
       max-width: 95%;
     }
     
+    /* For single image projects, make image even larger */
+    .single-image .project-image {
+      max-height: 600px;
+    }
+    
     @media (min-width: 768px) {
       .project-content {
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column; /* Changed to column to allow full-width images */
       }
+      
       .project-text {
-        width: 40%;
+        width: 100%;
       }
+      
       .project-images {
-        width: 60%;
+        width: 100%;
       }
+      
       /* For projects with two images, display them side by side on desktop */
       .two-images .project-images {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: flex-start;
       }
+      
       .two-images .project-image-container {
         width: 48%;
+      }
+    }
+    
+    /* For projects with one image on larger screens, make it 75% width */
+    @media (min-width: 1024px) {
+      .single-image .project-image-container {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
     
@@ -144,6 +164,13 @@
     .button:hover {
       background-color: #ffffff;
       color: #000000;
+    }
+    
+    /* Add a lightbox-like effect when clicking images */
+    .project-image:hover {
+      cursor: pointer;
+      transform: scale(1.01);
+      transition: transform 0.3s ease;
     }
   </style>
 </head>
@@ -163,7 +190,7 @@
   <h2>Research Projects</h2>
   <p>Below are some of my ongoing and completed research projects:</p>
   <ul class="project-list">
-    <li class="project-item">
+    <li class="project-item single-image">
       <h3>Boulder Distributions on Martian Ice Sheets (Sep 2023-present)</h3>
       <div class="project-content">
         <div class="project-text">
@@ -179,7 +206,7 @@
         </div>
       </div>
     </li>
-    <li class="project-item">
+    <li class="project-item single-image">
       <h3>Characterizing Hazards at Candidate Mars Sample Return (MSR) Landing Sites (Jun 2023-Aug 2023)</h3>
       <div class="project-content">
         <div class="project-text">
@@ -205,7 +232,7 @@
         </div>
         <div class="project-images">
           <div class="project-image-container">
-            <img src="Hypanis.PNG" alt="Hypanis Delta system" class="project-image">
+            <img src="Hypanis.png" alt="Hypanis Delta system" class="project-image">
             <p class="image-caption">The Hypanis delta system with the potential distal deposit shown in yellow.</p>
           </div>
           <div class="project-image-container">
