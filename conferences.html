@@ -116,6 +116,40 @@
       font-size: 0.75em;
       vertical-align: middle;
     }
+    .resource-links {
+      margin-top: 0.7rem;
+      display: flex;
+      gap: 1rem;
+    }
+    .resource-link {
+      display: inline-flex;
+      align-items: center;
+      background-color: #333;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      color: white;
+      font-size: 0.9em;
+      transition: all 0.2s ease;
+    }
+    .resource-link:hover {
+      background-color: #117864;
+      text-decoration: none;
+      transform: translateY(-2px);
+    }
+    .resource-link svg {
+      margin-right: 0.5rem;
+      width: 16px;
+      height: 16px;
+    }
+    .pdf-link {
+      border-left: 3px solid #FF5733;
+    }
+    .video-link {
+      border-left: 3px solid #27A1E7;
+    }
+    .slides-link {
+      border-left: 3px solid #8A2BE2;
+    }
     .note {
       font-style: italic;
       color: #aaa;
@@ -156,6 +190,14 @@
       <p class="authors">Singh C., Byrne S., Golombek M. P., Trautman M. R., Dundas C. M., Vona M. A., Williams. N. R. (2024).</p>
       <p class="conference-title">The Boulder Content of Midlatitude Ground Ice on Mars.</p>
       <p class="conference-details">56th Annual Lunar and Planetary Science Conference [Abstract #2613]. <span class="conference-location">The Woodlands, TX</span> <span class="presentation-type">Poster</span></p>
+      <div class="resource-links">
+        <a href="posters/LPSC2025_Singh_BoulderContent.pdf" target="_blank" class="resource-link pdf-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+          </svg>
+          Poster PDF
+        </a>
+      </div>
     </li>
     
     <li class="conference-item">
@@ -163,6 +205,21 @@
       <p class="authors">Singh C., Byrne S., Golombek M. P., Trautman M. R., Dundas C. M., Williams. N. R. (2024).</p>
       <p class="conference-title">Machine Vision Boulder Detections on Martian Ice Sheets.</p>
       <p class="conference-details">Tenth International Conference on Mars [Abstract #3433]. <span class="conference-location">Pasadena, CA</span> <span class="presentation-type">Poster</span></p>
+      <div class="resource-links">
+        <a href="posters/Mars10_Singh_MachineVision.pdf" target="_blank" class="resource-link pdf-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+          </svg>
+          Poster PDF
+        </a>
+        <a href="https://www.youtube.com/watch?v=example" target="_blank" class="resource-link video-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Presentation Video
+        </a>
+      </div>
     </li>
     
     <li class="conference-item">
@@ -170,6 +227,20 @@
       <p class="authors">Singh C., Byrne S., Golombek M. P., Trautman M. R., Dundas C. M., Crocco R., Williams. N. R. (2024).</p>
       <p class="conference-title">The Origin of Boulders on Martian Ice Sheets.</p>
       <p class="conference-details">55th Annual Lunar and Planetary Science Conference [Abstract #2755]. <span class="conference-location">The Woodlands, TX</span> <span class="presentation-type">Poster</span></p>
+      <div class="resource-links">
+        <a href="posters/LPSC2024_Singh_OriginOfBoulders.pdf" target="_blank" class="resource-link pdf-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+          </svg>
+          Poster PDF
+        </a>
+        <a href="slides/LPSC2024_Singh_Slides.pptx" target="_blank" class="resource-link slides-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+          </svg>
+          Presentation Slides
+        </a>
+      </div>
     </li>
     
     <li class="conference-item">
@@ -177,6 +248,14 @@
       <p class="authors">Singh C., Biassey-Bogart S., Morris M. M., Williams. N. R., Golombek M. P., Do S., Calef III F. J. (2023).</p>
       <p class="conference-title">Hazard Analysis: Potential Mars Sample Return Landing Sites.</p>
       <p class="conference-details">55th Annual Lunar and Planetary Science Conference [Abstract #2719]. <span class="conference-location">The Woodlands, TX</span> <span class="presentation-type">Poster</span></p>
+      <div class="resource-links">
+        <a href="posters/LPSC2024_Singh_MSRHazards.pdf" target="_blank" class="resource-link pdf-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+          </svg>
+          Poster PDF
+        </a>
+      </div>
     </li>
     
     <li class="conference-item">
@@ -191,6 +270,15 @@
       <p class="authors">Singh C., Adler J. B., Rivera-Hernández F. (2022).</p>
       <p class="conference-title">Characterizing A Potential Remnant of the Hypanis Delta.</p>
       <p class="conference-details">Georgia Tech Broadening Participation in Atmospheric Science, Oceanography, and Geosciences Research Experience for Undergraduates (REU), Georgia Institute of Technology. <span class="conference-location">Atlanta, GA</span></p>
+      <div class="resource-links">
+        <a href="https://www.youtube.com/watch?v=example2" target="_blank" class="resource-link video-link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Presentation Video
+        </a>
+      </div>
     </li>
     
     <li class="conference-item">
@@ -215,7 +303,7 @@
     </li>
   </ul>
   
-  <p class="note">All posters, PowerPoint files and/or video recordings are available upon request.</p>
+  <p class="note">Additional materials for presentations without links are available upon request.</p>
   
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
@@ -225,4 +313,4 @@
     <p>© 2025 Christina Singh. All rights reserved.</p>
   </footer>
 </body>
-</html>   
+</html>
