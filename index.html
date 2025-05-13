@@ -9,14 +9,13 @@
       font-family: Georgia, serif;
       margin: 0;
       padding: 2rem;
-      max-width: 850px;
+      max-width: 950px; /* Increased to match other pages */
       margin-left: auto;
       margin-right: auto;
       background-color: #000000;
       color: #ffffff;
       line-height: 1.6;
     }
-
     nav {
       display: flex;
       justify-content: center;
@@ -26,7 +25,6 @@
       margin-bottom: 2rem;
       border-bottom: 1px solid #444;
     }
-
     .nav-button {
       color: white;
       text-decoration: none;
@@ -36,44 +34,49 @@
       border-radius: 5px;
       font-family: Georgia, serif;
     }
-
     .nav-button:hover {
       background-color: #ffffff;
       color: #000000;
     }
-
     header {
       display: flex;
       align-items: center;
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
-
     img.profile {
       width: 150px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
-
     h1 {
       font-size: 2em;
       margin: 0;
       color: #ffffff;
     }
-
     h2 {
       color: #ffffff;
       margin-top: 2rem;
     }
-
+    h3 {
+      margin-bottom: 0.5rem;
+    }
     a {
       color: #ffffff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
+    .lpl-link {
+      color: #27A1E7; 
+      text-decoration: underline;
+    }
+    .research-interests {
+      padding-left: 1.5rem;
+    }
+    .research-interests li {
+      margin-bottom: 0.5rem;
+    }
     .button {
       display: inline-block;
       margin-top: 1rem;
@@ -85,14 +88,35 @@
       font-weight: bold;
       font-family: Georgia, serif;
     }
-
     .button:hover {
       background-color: #ffffff;
       color: #000000;
     }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #444;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+    .section-divider {
+      border: 1px solid #FF5733; 
+      margin: 2rem 0;
+    }
+    .mentor-group, .research-group {
+      color: #8A2BE2; /* Purple color for group links */
+      font-weight: bold;
+      transition: color 0.2s ease;
+      border-bottom: 1px dotted #8A2BE2;
+      padding-bottom: 1px;
+    }
+    .mentor-group:hover, .research-group:hover {
+      color: #FF5733; /* Your accent color on hover */
+      text-decoration: none;
+      border-bottom-color: #FF5733;
+    }
   </style>
 </head>
-
 <body>
   <nav>
     <a href="index.html" class="nav-button">Home</a>
@@ -100,7 +124,6 @@
     <a href="conferences.html" class="nav-button">Conferences</a>
     <a href="CV.pdf" class="nav-button" target="_blank">CV</a>
   </nav>
-
   <header>
     <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
@@ -109,24 +132,22 @@
       <p>
         <a href="https://www.lpl.arizona.edu/graduate/students/christina-singh" 
            target="_blank" 
-           style="color: #27A1E7; text-decoration: underline;">
+           class="lpl-link">
            LPL student webpage (link)
         </a>
       </p>
-
     </div>
   </header>
-
   <h2>About Me</h2>
   <p>
     I'm a first-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets at the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
     My work focuses on analyzing geomorphological data to assess the Martian paleoclimate and water budgets.
   </p>
   
-  <hr style="border: 1px solid #FF5733; margin: 2rem 0;">
+  <hr class="section-divider">
   
   <h2>Research Interests</h2>
-  <ul>
+  <ul class="research-interests">
     <li>Planetary Surface Processes</li>
     <li>Photogrammetry</li>
     <li>Geographic Information Systems</li>
@@ -136,16 +157,17 @@
     <li>Astrobiology</li>
   </ul>
   
-  <hr style="border: 1px solid #FF5733; margin: 2rem 0;">
+  <hr class="section-divider">
   
   <h2>Publications</h2>
   <p>Coming soon...</p>
   
-  <hr style="border: 1px solid #FF5733; margin: 2rem 0;">
+  <hr class="section-divider">
   
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
   <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
+  
   <footer>
     <p>© 2025 Christina Singh. All rights reserved.</p>
   </footer>
