@@ -92,8 +92,21 @@
       margin-bottom: 1rem;
     }
     .mentor {
-      color: #27A1E7; /* Light blue color for emphasis */
+      color: #96248c; /* Light blue color for emphasis */
     }
+    .mentor-group, .research-group {
+    color: #27A1E7; /* Purple color for group links */
+    font-weight: bold;
+    transition: color 0.2s ease;
+    border-bottom: 1px dotted #8A2BE2;
+    padding-bottom: 1px;
+    }
+
+.mentor-group:hover, .research-group:hover {
+  color: #FF5733; /* Your accent color on hover */
+  text-decoration: none;
+  border-bottom-color: #FF5733;
+}
     .institution {
       color: #FF5733; /* Accent color from your original design */
     }
@@ -274,8 +287,9 @@
     <li class="project-item">
       <h3>Characterizing the Stratigraphy of a Potential Distal Remnant of the Hypanis Delta, Mars (May 2022-Jul 2022)</h3>
       <p class="project-meta">
-        <span class="institution">Georgia Institute of Technology, Department of Earth and Atmospheric Sciences</span> | 
-        Mentors: <span class="mentor">Dr. Frances Rivera-Hernandez & Dr. Jacob Adler</span>
+        <span class="institution">Georgia Institute of Technology, School of Earth and Atmospheric Sciences</span> | 
+        Mentors: <span class="mentor">Dr. Frances Rivera-Hernández & Dr. Jacob Adler</span> |
+        Group: <a href="https://planetas.eas.gatech.edu/" target="_blank" class="mentor-group">PLANETAS</a>
       </p>
       <div class="project-content">
         <div class="project-text">
