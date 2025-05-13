@@ -95,7 +95,19 @@
       margin-top: 0.5rem;
     }
     .conference-location {
-      color: #27A1E7;
+      color: #96248c;
+    }
+    .mentor-group, .research-group {
+    color: #8A2BE2; /* Purple color for group links */
+    font-weight: bold;
+    transition: color 0.2s ease;
+    border-bottom: 1px dotted #8A2BE2;
+    padding-bottom: 1px;
+    }
+    .mentor-group:hover, .research-group:hover {
+      color: #FF5733; /* Your accent color on hover */
+      text-decoration: none;
+      border-bottom-color: #FF5733;
     }
     .conference-date {
       position: absolute;
@@ -257,7 +269,7 @@
       <span class="conference-date">July 2022</span>
       <p class="authors">Singh C., Adler J. B., Rivera-Hernández F. (2022).</p>
       <p class="conference-title">Characterizing A Potential Remnant of the Hypanis Delta.</p>
-      <p class="conference-details">Georgia Tech Broadening Participation in Atmospheric Science, Oceanography, and Geosciences Research Experience for Undergraduates (REU), Georgia Institute of Technology. <span class="conference-location">Atlanta, GA</span></p>
+      <p class="conference-details">Georgia Tech Broadening Participation in Atmospheric Science, Oceanography, and Geosciences Research Experience for Undergraduates (REU), <a href="https://planetas.eas.gatech.edu/" target="_blank" class="research-group">PLANETAS</a> group, Georgia Institute of Technology. <span class="conference-location">Atlanta, GA</span></p>
       <div class="resource-links">
         <a href="https://mediaspace.gatech.edu/media/EAS+REU+Presentations+-+Part+3/1_hcmk3owx?st=701" target="_blank" class="resource-link video-link">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
