@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christina Singh | Outreach</title>
+  <style>
+    body {
+      /* Background image with dark overlay */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('ESP_033165_2195.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      
+      font-family: Georgia, serif;
+      color: #ffffff;
+      line-height: 1.6;
+
+      margin: 0;
+      padding: 2rem;
+      max-width: 950px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #111;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #444;
+    }
+    .nav-button {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      background-color: #117864;
+      border-radius: 5px;
+      font-family: Georgia, serif;
+    }
+    .nav-button:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    img.profile {
+      width: 150px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #ffffff;
+    }
+    h2 {
+      color: #ffffff;
+      margin-top: 2rem;
+    }
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .outreach-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .outreach-item {
+      margin-bottom: 2rem;
+      padding: 2rem;
+      background-color: rgba(34, 34, 34, 0.7);
+      border-radius: 5px;
+      position: relative;
+    }
+    .outreach-item:hover {
+      background-color: rgba(40, 40, 40, 0.7);
+    }
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1.5rem auto;
+      width: 90%;
+    }
+    .outreach-image {
+      width: 100%;
+      max-height: 600px;
+      object-fit: contain;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .image-caption {
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 0.8rem;
+      font-style: italic;
+      text-align: center;
+      max-width: 95%;
+    }
+    .outreach-location {
+      color: #27A1E7;
+      font-weight: bold;
+    }
+    .outreach-date {
+      color: #FF5733;
+      font-style: italic;
+    }
+    .section-divider {
+      border: 1px solid #FF5733;
+      margin: 2rem 0;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #444;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html" class="nav-button">Home</a>
+    <a href="projects.html" class="nav-button">Research Projects</a>
+    <a href="conferences.html" class="nav-button">Conferences</a>
+    <a href="field_work.html" class="nav-button">Field Work</a>
+    <a href="outreach.html" class="nav-button">Outreach</a>
+    <a href="CV.pdf" class="nav-button" target="_blank">CV</a>
+  </nav>
+
+  <header>
+    <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
+    <div>
+      <h1>Christina Singh</h1>
+      <p><em>Graduate Research Assistant | Planetary Science PhD Student</em></p>
+    </div>
+  </header>
+
+  <h2>Outreach & Community Engagement</h2>
+  <p>
+    I am passionate about science communication and community engagement.  
+    Below are highlights from my outreach, mentoring, and STEM education activities.
+  </p>
+
+  <ul class="outreach-list">
+
+    <!-- Item 1 -->
+    <li class="outreach-item">
+      <h3>Girls in STEM Workshop</h3>
+      <p>
+        <span class="outreach-location">University of Arizona, Tucson</span> | 
+        <span class="outreach-date">2025</span>
+      </p>
+
+      <div class="image-container">
+        <img src="girls_in_stem.jpg" alt="Girls in STEM event" class="outreach-image">
+        <p class="image-caption">Leading a hands-on crater formation activity for middle school students.</p>
+      </div>
+
+      <p>
+        I helped facilitate a workshop introducing young girls to astronomy, planetary geology,
+        and scientific problem solving. Activities included:
+      </p>
+      <ul>
+        <li>Impact crater formation experiments</li>
+        <li>Demonstrations of remote sensing tools used in planetary research</li>
+        <li>Mentoring discussions on pursuing careers in STEM</li>
+      </ul>
+    </li>
+
+    <!-- Item 2 -->
+    <li class="outreach-item">
+      <h3>Public Lecture: Exploring Water on Mars</h3>
+      <p>
+        <span class="outreach-location">Flandrau Science Center & Planetarium</span> | 
+        <span class="outreach-date">2024</span>
+      </p>
+
+      <div class="image-container">
+        <img src="mars_talk.jpg" alt="Public talk on Mars" class="outreach-image">
+        <p class="image-caption">Delivering a community lecture about past and present water on Mars.</p>
+      </div>
+
+      <p>
+        I gave a public talk highlighting the role of geomorphology and radar science in
+        understanding Martian hydrology. Topics included:
+      </p>
+      <ul>
+        <li>Mars’ glacial history</li>
+        <li>Midlatitude ice sheets</li>
+        <li>Why studying water on Mars matters for astrobiology</li>
+      </ul>
+    </li>
+
+    <!-- Item 3 -->
+    <li class="outreach-item">
+      <h3>Mentoring Undergraduate Researchers</h3>
+      <p>
+        <span class="outreach-location">Lunar & Planetary Laboratory</span> | 
+        <span class="outreach-date">2024–Present</span>
+      </p>
+
+      <p>
+        I mentor undergraduate students working on planetary surface processes and geologic
+        mapping. Responsibilities include:
+      </p>
+      <ul>
+        <li>Training students to use GIS tools and photogrammetry workflows</li>
+        <li>Co-authoring abstracts for conferences</li>
+        <li>Supporting students’ applications to REU programs and fellowships</li>
+      </ul>
+    </li>
+
+  </ul>
+
+  <hr class="section-divider">
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
+  <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
+
+  <footer>
+    <p>© 2025 Christina Singh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
