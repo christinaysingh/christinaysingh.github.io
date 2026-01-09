@@ -89,6 +89,7 @@
   <nav>
     <a href="index.html" class="nav-button">Home</a>
     <a href="projects.html" class="nav-button">Research Projects</a>
+    <a href="outreach.html" class="nav-button">Outreach</a>
     <a href="CV.pdf" class="nav-button" target="_blank">CV</a>
   </nav>
 
