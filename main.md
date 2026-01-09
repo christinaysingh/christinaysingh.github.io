@@ -120,4 +120,9 @@
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
   <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
+
+   <footer>
+    <p>© 2026 Christina Singh. All rights reserved.</p>
+  </footer>
+  
 </body>
