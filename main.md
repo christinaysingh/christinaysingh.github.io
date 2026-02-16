@@ -12,8 +12,10 @@
       max-width: 850px;
       margin-left: auto;
       margin-right: auto;
-      background-color: #000000;
-      color: #ffffff;
+      background-color: 
+#000000;
+      color: 
+#ffffff;
       line-height: 1.6;
     }
     nav {
@@ -30,13 +32,16 @@
       text-decoration: none;
       font-weight: bold;
       padding: 0.5rem 1rem;
-      background-color: #117864;
+      background-color: 
+#117864;
       border-radius: 5px;
       font-family: Georgia, serif;
     }
     .nav-button:hover {
-      background-color: #ffffff;
-      color: #000000;
+      background-color: 
+#ffffff;
+      color: 
+#000000;
     }
     header {
       display: flex;
@@ -54,14 +59,17 @@
     h1 {
       font-size: 2em;
       margin: 0;
-      color: #ffffff;
+      color: 
+#ffffff;
     }
     h2 {
-      color: #ffffff;
+      color: 
+#ffffff;
       margin-top: 2rem;
     }
     a {
-      color: #ffffff;
+      color: 
+#ffffff;
       text-decoration: none;
     }
     a:hover {
@@ -71,7 +79,8 @@
       display: inline-block;
       margin-top: 1rem;
       padding: 0.5rem 1rem;
-      background-color: #117864;
+      background-color: 
+#117864;
       color: white;
       border-radius: 5px;
       text-decoration: none;
@@ -79,29 +88,10 @@
       font-family: Georgia, serif;
     }
     .button:hover {
-      background-color: #ffffff;
-      color: #000000;
-    }
-    .education-item {
-      margin-bottom: 1.5rem;
-    }
-    .degree {
-      font-weight: bold;
-      color: #FF5733;
-    }
-    .institution {
-      font-style: italic;
-      color: #FFC300;
-    }
-    .year {
-      color: #aaa;
-    }
-    footer {
-      margin-top: 3rem;
-      padding-top: 1rem;
-      border-top: 1px solid #444;
-      color: #aaa;
-      font-size: 0.9em;
+      background-color: 
+#ffffff;
+      color: 
+#000000;
     }
   </style>
 </head>
@@ -119,26 +109,11 @@
       <p><em>Graduate Research Assistant | Planetary Science PhD Student</em></p>
     </div>
   </header>
-  
   <h2>About Me</h2>
   <p>
     I'm a second-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets at the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
     My work focuses on analyzing geomorphological data to assess the Martian paleoclimate and water budgets.
   </p>
-  
-  <h2>Education</h2>
-  <div class="education-item">
-    <p class="degree">PhD in Planetary Science</p>
-    <p class="institution">University of Arizona, Lunar and Planetary Laboratory</p>
-    <p class="year">Expected 2028</p>
-  </div>
-  
-  <div class="education-item">
-    <p class="degree">Bachelor of Arts in Astrophysics</p>
-    <p class="institution">Connecticut College</p>
-    <p class="year">2023</p>
-  </div>
-  
   <h2>Research Interests</h2>
   <ul>
     <li>Planetary Surface Processes</li>
@@ -146,17 +121,13 @@
     <li>Planetary Analogs</li>
     <li>Astrobiology</li>
   </ul>
-  
   <h2>Publications</h2>
   <p>Coming soon...</p>
-  
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
   <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
-  
-  <footer>
+   <footer>
     <p>© 2026 Christina Singh. All rights reserved.</p>
   </footer>
-  
+
 </body>
-</html>
