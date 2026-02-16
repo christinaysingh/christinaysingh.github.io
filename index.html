@@ -6,15 +6,23 @@
   <title>Christina's Research Website | Research</title>
   <style>
     body {
+      /* Background image with overlay */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://static.uahirise.org/images/wallpaper/1600/ESP_033165_2195.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      
+      /* Basic styling */
       font-family: Georgia, serif;
-      margin: 0;
-      padding: 2rem;
-      max-width: 850px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #000000;
       color: #ffffff;
       line-height: 1.6;
+      
+      /* Layout */
+      margin: 0;
+      padding: 2rem;
+      max-width: 950px;
+      margin-left: auto;
+      margin-right: auto;
     }
     nav {
       display: flex;
@@ -48,9 +56,6 @@
       width: 150px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     }
-    h1, h2, p, li, a {
-      font-family: Georgia, serif;
-    }
     h1 {
       font-size: 2em;
       margin: 0;
@@ -66,21 +71,6 @@
     }
     a:hover {
       text-decoration: underline;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      background-color: #117864;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: Georgia, serif;
-    }
-    .button:hover {
-      background-color: #ffffff;
-      color: #000000;
     }
     .education-item {
       margin-bottom: 1.5rem;
