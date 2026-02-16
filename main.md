@@ -82,9 +82,29 @@
       background-color: #ffffff;
       color: #000000;
     }
+    .education-item {
+      margin-bottom: 1.5rem;
+    }
+    .degree {
+      font-weight: bold;
+      color: #FF5733;
+    }
+    .institution {
+      font-style: italic;
+      color: #FFC300;
+    }
+    .year {
+      color: #aaa;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #444;
+      color: #aaa;
+      font-size: 0.9em;
+    }
   </style>
 </head>
-
 <body>
   <nav>
     <a href="index.html" class="nav-button">Home</a>
@@ -92,7 +112,6 @@
     <a href="outreach.html" class="nav-button">Outreach</a>
     <a href="CV.pdf" class="nav-button" target="_blank">CV</a>
   </nav>
-
   <header>
     <img src="Singh_Christina_web.jpg" alt="Christina Singh" class="profile" />
     <div>
@@ -100,13 +119,26 @@
       <p><em>Graduate Research Assistant | Planetary Science PhD Student</em></p>
     </div>
   </header>
-
+  
   <h2>About Me</h2>
   <p>
     I'm a second-year graduate research assistant studying boulder distributions on midlatitude Martian ice sheets at the University of Arizona's Lunar and Planetary Lab with Dr. Shane Byrne.
     My work focuses on analyzing geomorphological data to assess the Martian paleoclimate and water budgets.
   </p>
-
+  
+  <h2>Education</h2>
+  <div class="education-item">
+    <p class="degree">PhD in Planetary Science</p>
+    <p class="institution">University of Arizona, Lunar and Planetary Laboratory</p>
+    <p class="year">Expected 2028</p>
+  </div>
+  
+  <div class="education-item">
+    <p class="degree">Bachelor of Arts in Astrophysics</p>
+    <p class="institution">Connecticut College</p>
+    <p class="year">2023</p>
+  </div>
+  
   <h2>Research Interests</h2>
   <ul>
     <li>Planetary Surface Processes</li>
@@ -114,16 +146,17 @@
     <li>Planetary Analogs</li>
     <li>Astrobiology</li>
   </ul>
-
+  
   <h2>Publications</h2>
   <p>Coming soon...</p>
-
+  
   <h2>Contact</h2>
   <p>Email: <a href="mailto:christina@arizona.edu">christina@arizona.edu</a></p>
   <p>GitHub: <a href="https://github.com/christinaysingh" target="_blank">github.com/christinaysingh</a></p>
-
-   <footer>
+  
+  <footer>
     <p>© 2026 Christina Singh. All rights reserved.</p>
   </footer>
   
 </body>
+</html>
